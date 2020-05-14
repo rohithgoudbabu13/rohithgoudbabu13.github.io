@@ -67,4 +67,12 @@ border-radius: 25px;
     text-shadow: darkslategray;
     color: deeppink;
 }
+@viewport{
+  width:extend-to-zoom;
+  zoom: 1.0;
+}
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
   
