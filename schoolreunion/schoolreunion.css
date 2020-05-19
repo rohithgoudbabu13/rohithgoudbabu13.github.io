@@ -1,0 +1,46 @@
+body{
+    background: #1f2235;
+    font-family: "baloo tamma 2",cursive;
+}
+.m-heading{
+    font-family: "roboto slab",serif;
+}
+.navigation-link{
+    border: 2px solid transparent;
+}
+
+.navigation-line:hover{
+    text-decoration:none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}
+.main-container{
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+.main-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-row h2{
+    font-size: 5rem;
+}
+#about{
+    background: #313552;
+    border-radius: 0.5rem;
+}
+.card{
+    border-bottom: 8px solid #f5ba09;
+}
+#social-media{
+    background: #313552;
+}
+.media_link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
